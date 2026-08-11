@@ -6,12 +6,12 @@
  */
 
 export const siteConfig = {
-  name: "Fleetline",
-  legalName: "Fleetline Technologies",
+  name: "FleetMTS",
+  legalName: "FleetMTS Technologies",
   tagline: "Smarter Fleet Management. Complete Control.",
   description:
-    "Fleetline gives modern fleets real-time visibility and complete operational control — from live GPS tracking to vehicle, driver, and maintenance management, in one connected platform.",
-  url: "https://www.fleetline.example.com",
+    "FleetMTS gives modern fleets real-time visibility and complete operational control — from live GPS tracking to vehicle, driver, and maintenance management, in one connected platform.",
+  url: "https://www.FleetMTS.example.com",
 
   nav: [
     { label: "Products", href: "#products" },
@@ -27,11 +27,11 @@ export const siteConfig = {
   },
 
   contact: {
-    email: "hello@fleetline.example.com",
+    email: "hello@FleetMTS.example.com",
     phone: "+880 1XXX-XXXXXX",
     // Digits only, international format, no symbols — used to build the wa.me link.
-    whatsapp: "8801XXXXXXXXX",
-    whatsappMessage: "Hi Fleetline, I'd like to learn more about your fleet solutions.",
+    whatsapp: "880171053537",
+    whatsappMessage: "Hi FleetMTS, I'd like to learn more about your fleet solutions.",
   },
 } as const;
 

@@ -33,12 +33,37 @@
   h4 {
     @apply font-display tracking-tight;
   }
+
+  .track {
+    animation: scroll 34s linear infinite;
+  }
+
+  .logoMarquee:hover .track {
+    animation-play-state: paused;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .track {
+      animation: none;
+    }
+  }
 }
 
 @layer utilities {
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
+
   .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -46,6 +71,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {

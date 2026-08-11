@@ -1,6 +1,6 @@
-# Fleetline — Vehicle Fleet Management Landing Page
+# FleetMTS — Vehicle Fleet Management Landing Page
 
-The complete Fleetline marketing site: Navbar, Hero, Product Showcase (VTS +
+The complete FleetMTS marketing site: Navbar, Hero, Product Showcase (VTS +
 VMS), Use Cases, Features, Why Choose Us, Reviews, Contact, and Footer —
 plus the global loader, WhatsApp button, back-to-top button, and
 production-readiness essentials (SEO metadata, sitemap/robots, dynamic
@@ -106,7 +106,7 @@ src/
 │   │   ├── HeroVisual.tsx      # Signature live-tracking dashboard mockup
 │   │   ├── ProductShowcase.tsx
 │   │   ├── ProductCard.tsx
-│   │   ├── UseCases.tsx        # Dark section — industries Fleetline serves
+│   │   ├── UseCases.tsx        # Dark section — industries FleetMTS serves
 │   │   ├── Features.tsx        # Light section — platform capabilities
 │   │   ├── WhyUs.tsx           # Dark-accent section — differentiators + trust stats
 │   │   ├── Reviews.tsx         # Light section — testimonials grid

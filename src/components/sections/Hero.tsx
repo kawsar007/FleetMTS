@@ -2,11 +2,12 @@ import { PageContainer } from "@/components/layout/PageContainer";
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
 import { PrimaryButton } from "@/components/ui/PrimaryButton";
 import { SecondaryButton } from "@/components/ui/SecondaryButton";
+import { ClientLogos } from "./ClientLogos";
 import { HeroVisual } from "./HeroVisual";
 
 export function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden pb-20 pt-36 sm:pb-28 sm:pt-44">
+    <section id="top" className="relative overflow-hidden pb-10 pt-36 sm:pb-14 sm:pt-44">
       {/* Ambient backdrop */}
       <div className="pointer-events-none absolute inset-0 bg-grid-light bg-[length:36px_36px] [mask-image:radial-gradient(ellipse_60%_60%_at_50%_0%,black,transparent)]" />
       <div className="pointer-events-none absolute left-1/2 top-[-10%] h-[420px] w-[720px] -translate-x-1/2 rounded-full bg-signal/10 blur-[100px]" />
@@ -77,6 +78,20 @@ export function Hero() {
 
         <AnimatedSection direction="left" delay={0.2} className="relative">
           <HeroVisual />
+        </AnimatedSection>
+      </PageContainer>
+
+      <PageContainer>
+        {/* Trusted by / client logos */}
+        <AnimatedSection delay={0.4} className="relative mt-16 sm:mt-20">
+
+          <p className="text-center font-mono text-xs uppercase tracking-[0.14em] text-slate-dim sm:text-left">
+            Trusted by fleets at
+          </p>
+
+          <div className="mt-6">
+            <ClientLogos />
+          </div>
         </AnimatedSection>
       </PageContainer>
     </section>

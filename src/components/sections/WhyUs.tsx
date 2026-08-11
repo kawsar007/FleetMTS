@@ -13,7 +13,7 @@ export function WhyUs() {
           <AnimatedSection>
             <SectionHeading
               tone="dark"
-              eyebrow="Why Fleetline"
+              eyebrow="Why FleetMTS"
               title="The details that make fleets trust their data"
               description="Anyone can show a map with dots on it. Here's what actually holds up once your operation depends on it."
             />
@@ -52,7 +52,7 @@ export function WhyUs() {
             </div>
 
             <p className="relative mt-4 text-sm leading-relaxed text-slate-dim">
-              Live figures from fleets running on Fleetline today.
+              Live figures from fleets running on FleetMTS today.
             </p>
 
             <dl className="relative mt-8 grid grid-cols-2 gap-x-6 gap-y-8">

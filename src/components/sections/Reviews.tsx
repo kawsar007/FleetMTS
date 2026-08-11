@@ -22,7 +22,7 @@ export function Reviews() {
             align="center"
             eyebrow="Trusted by fleets"
             title="What fleet teams say after switching"
-            description="Real operators, real logistics teams, running their day-to-day on Fleetline."
+            description="Real operators, real logistics teams, running their day-to-day on FleetMTS."
             className="mx-auto"
           />
         </AnimatedSection>

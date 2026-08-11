@@ -29,7 +29,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "apex",
     quote:
-      "Our equipment sits across a dozen job sites at any given time. Fleetline is the first tool that's actually kept up with how spread out we are.",
+      "Our equipment sits across a dozen job sites at any given time. FleetMTS is the first tool that's actually kept up with how spread out we are.",
     name: "Daniel Osei",
     role: "Site Operations Lead",
     company: "Apex Construction Group",

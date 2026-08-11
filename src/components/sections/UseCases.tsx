@@ -16,7 +16,7 @@ export function UseCases() {
             tone="dark"
             eyebrow="Built for every fleet"
             title="One platform, wherever your vehicles work"
-            description="Fleetline adapts to how your industry actually moves, not the other way around."
+            description="FleetMTS adapts to how your industry actually moves, not the other way around."
           />
         </AnimatedSection>
 
