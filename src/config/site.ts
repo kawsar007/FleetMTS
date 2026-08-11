@@ -8,7 +8,7 @@
 export const siteConfig = {
   name: "FleetMTS",
   legalName: "FleetMTS Technologies",
-  tagline: "Smarter Fleet Management. Complete Control.",
+  tagline: "Smarter Fleet Management. Better Control.",
   description:
     "FleetMTS gives modern fleets real-time visibility and complete operational control — from live GPS tracking to vehicle, driver, and maintenance management, in one connected platform.",
   url: "https://www.FleetMTS.example.com",
@@ -28,7 +28,7 @@ export const siteConfig = {
 
   contact: {
     email: "hello@FleetMTS.example.com",
-    phone: "+880 1XXX-XXXXXX",
+    phone: "+880171053537",
     // Digits only, international format, no symbols — used to build the wa.me link.
     whatsapp: "880171053537",
     whatsappMessage: "Hi FleetMTS, I'd like to learn more about your fleet solutions.",

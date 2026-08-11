@@ -1,5 +1,5 @@
-import { ImageResponse } from "next/og";
 import { siteConfig } from "@/config/site";
+import { ImageResponse } from "next/og";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -49,7 +49,7 @@ export default function OpengraphImage() {
         >
           <div style={{ display: "flex" }}>Smarter fleet management.</div>
           <div style={{ display: "flex", color: "#2F6FED" }}>
-            Complete control.
+            Better control.
           </div>
         </div>
 
