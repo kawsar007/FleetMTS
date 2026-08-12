@@ -15,11 +15,13 @@ export const siteConfig = {
 
   nav: [
     { label: "Products", href: "#products" },
+    { label: "Benefits", href: "#benefits" },
     { label: "Use Cases", href: "#use-cases" },
     { label: "Features", href: "#features" },
     { label: "Why Us", href: "#why-us" },
     { label: "Reviews", href: "#reviews" },
     { label: "Contact", href: "#contact" },
+    { label: "Our Team", href: "#team" },
   ],
 
   cta: {
