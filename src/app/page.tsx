@@ -1,5 +1,6 @@
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
+import { Benefits } from "@/components/sections/Benefits";
 import { BrandTagline } from "@/components/sections/BrandTagline";
 import { Contact } from "@/components/sections/Contact";
 import { Features } from "@/components/sections/Features";
@@ -17,11 +18,13 @@ export default function Home() {
         <Hero />
         <BrandTagline />
         <ProductShowcase />
+        <Benefits />
         <UseCases />
         <Features />
         <WhyUs />
         <Reviews />
         <Contact />
+
       </main>
       <Footer />
     </>

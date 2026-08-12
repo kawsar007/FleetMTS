@@ -36,7 +36,7 @@ export const products: Product[] = [
       "Driver behavior monitoring",
       "Fleet-wide visibility",
     ],
-    url: "https://vts.example.com",
+    url: "https://vts-landing-page.vercel.app/",
     ctaLabel: "Explore VTS",
     stat: { value: "2s", label: "location refresh" },
   },
