@@ -10,12 +10,12 @@ const benefitImages: Record<string, string> = {
   "live-tracking": "https://images.unsplash.com/photo-1625217527288-93919c99650a?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "reports": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&crop=center&auto=format",
   "apps": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop&crop=center&auto=format",
-  "alerts": "https://plus.unsplash.com/premium_photo-1719491716646-9525cc8bdc3b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "alerts": "https://itracker.com.bd/wp-content/uploads/2024/12/Alerts-and-Notifications-2048x1152.jpg",
   "overspeed": "https://plus.unsplash.com/premium_photo-1671462506019-42c8876119e0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 };
 
 function BenefitCard({ benefit }: { benefit: Benefit }) {
-  const imageUrl = benefitImages[benefit.id];
+  const imageUrl = benefitImages[benefit.id ?? ""] ?? "";
 
   return (
     <div className="group relative flex h-full flex-col overflow-hidden rounded-xl2 border border-line bg-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover">
