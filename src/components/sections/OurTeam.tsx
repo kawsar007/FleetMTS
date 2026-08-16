@@ -61,9 +61,9 @@ const teamMembers: TeamMember[] = [
 
 function TeamCard({ member, index }: { member: TeamMember; index: number }) {
   return (
-    <div className="group relative flex w-[280px] shrink-0 flex-col overflow-hidden rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-white/20 hover:bg-white/10 hover:shadow-2xl sm:w-[300px] md:w-[320px]">
-      {/* Image Container */}
-      <div className="relative aspect-square overflow-hidden">
+    <div className="group relative flex h-[400px] w-[280px] shrink-0 flex-col overflow-hidden rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-white/20 hover:bg-white/10 hover:shadow-2xl sm:h-[420px] sm:w-[300px] md:h-[440px] md:w-[320px]">
+      {/* Image Container — shrinks smoothly on hover to make room for the description below */}
+      <div className="relative h-[280px] w-full shrink-0 overflow-hidden transition-[height] duration-500 ease-out group-hover:h-[160px] sm:h-[300px] sm:group-hover:h-[170px] md:h-[320px] md:group-hover:h-[180px]">
         <Image
           src={member.image}
           alt={member.name}
@@ -84,23 +84,19 @@ function TeamCard({ member, index }: { member: TeamMember; index: number }) {
         </div>
       </div>
 
-      {/* Content */}
-      <div className="flex flex-1 flex-col p-5">
-        <h3 className="font-display text-lg font-semibold text-white transition-colors duration-300 group-hover:text-blue-400">
+      {/* Content — fills the remaining fixed space automatically as the image shrinks */}
+      <div className="flex min-h-0 flex-1 flex-col overflow-hidden p-5">
+        <h3 className="shrink-0 font-display text-lg font-semibold text-white transition-colors duration-300 group-hover:text-blue-400">
           {member.name}
         </h3>
-        <p className="mt-0.5 text-sm font-medium text-blue-400/80">
+        <p className="mt-0.5 shrink-0 text-sm font-medium text-blue-400/80">
           {member.designation}
         </p>
 
-        {/* Description - hidden by default, revealed on hover */}
-        <div className="mt-3 overflow-hidden">
-          <div className="max-h-0 opacity-0 transition-all duration-500 ease-out group-hover:max-h-40 group-hover:opacity-100">
-            <p className="text-sm leading-relaxed text-white/70">
-              {member.description}
-            </p>
-          </div>
-        </div>
+        {/* Description — reveals into the space freed up by the shrinking image */}
+        <p className="mt-3 translate-y-1.5 text-sm leading-relaxed text-white/70 opacity-0 transition-all delay-100 duration-500 ease-out line-clamp-5 group-hover:translate-y-0 group-hover:opacity-100">
+          {member.description}
+        </p>
       </div>
     </div>
   );
