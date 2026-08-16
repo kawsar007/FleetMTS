@@ -124,20 +124,11 @@ export function OurTeam() {
         <AnimatedSection>
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-[2.75rem]">
-              Results that speak for itself
+              Our Team
             </h2>
             <p className="mt-4 text-lg text-white/70">
               Real outcomes from production systems running at enterprise scale.
             </p>
-
-            {/* Decorative line with "Our Team" label */}
-            <div className="mt-8 flex items-center justify-center gap-4" aria-hidden="true">
-              <span className="h-px w-16 bg-white/20 sm:w-24" />
-              <span className="text-xs font-medium uppercase tracking-[0.2em] text-white/40">
-                Our Team
-              </span>
-              <span className="h-px w-16 bg-white/20 sm:w-24" />
-            </div>
           </div>
         </AnimatedSection>
 
