@@ -18,9 +18,10 @@ export function ProductShowcase() {
           />
         </AnimatedSection>
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-2 lg:gap-8">
+        {/* Stack cards vertically with full width */}
+        <div className="mt-14 flex flex-col gap-8 max-w-6xl mx-auto">
           {products.map((product, i) => (
-            <AnimatedSection key={product.id} delay={i * 0.12} className="h-full">
+            <AnimatedSection key={product.id} delay={i * 0.12} className="w-full">
               <ProductCard product={product} />
             </AnimatedSection>
           ))}
