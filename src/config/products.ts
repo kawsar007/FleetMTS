@@ -29,12 +29,14 @@ export const products: Product[] = [
     description:
       "Watch every vehicle move in real time. VTS gives you precise GPS tracking, route history, and instant alerts, so you always know where your fleet is and how it's performing.",
     features: [
-      "Real-time GPS tracking",
-      "Live vehicle location",
-      "Route monitoring",
-      "Trip history & playback",
-      "Driver behavior monitoring",
-      "Fleet-wide visibility",
+      "Track Vehicles in Real Time",
+      "Monitor Live Vehicle Locations",
+      "Optimize Routes & Monitor Journeys",
+      "Replay Trips with Detailed History",
+      "Monitor & Improve Driver Behavior",
+      "Get Complete Fleet-Wide Visibility",
+      "Create & Manage Smart Geofences",
+      "Access Comprehensive Fleet Reports"
     ],
     url: "https://vts-landing-page.vercel.app/",
     ctaLabel: "Explore VTS",
