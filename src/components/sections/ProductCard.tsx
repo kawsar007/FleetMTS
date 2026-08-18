@@ -58,7 +58,7 @@ export function ProductCard({ product }: ProductCardProps) {
           {/* Main Image */}
           <div className="relative aspect-[16/9] w-full overflow-hidden rounded-lg bg-ink/5">
             <Image
-              src={productImages[activeImage]}
+              src={productImages[activeImage] || ""}
               alt={product.name}
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"

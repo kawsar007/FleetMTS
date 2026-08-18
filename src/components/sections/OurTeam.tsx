@@ -20,7 +20,7 @@ const teamMembers: TeamMember[] = [
     name: "Sarah Johnson",
     designation: "CEO & Founder",
     description: "15+ years of experience in fleet management technology. Previously led product at FleetCorp.",
-    image: "https://images.unsplash.com/photo-1494790108375-be9c8b7d0e6a?w=600&h=600&fit=crop&crop=face&auto=format",
+    image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: "member-2",
