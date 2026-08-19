@@ -42,25 +42,25 @@ export const products: Product[] = [
     ctaLabel: "Explore VTS",
     stat: { value: "2s", label: "location refresh" },
   },
-  {
-    id: "vms",
-    name: "Vehicle Management System",
-    shortName: "VMS",
-    eyebrow: "Complete operations",
-    description:
-      "Run the full lifecycle of your fleet from one place. VMS handles vehicles, drivers, maintenance schedules, and reporting, so operations stay organized as you scale.",
-    features: [
-      "Vehicle records management",
-      "Driver management",
-      "Maintenance scheduling",
-      "Fleet documentation",
-      "Operational workflows",
-      "Reports & analytics",
-    ],
-    url: "https://vms.example.com",
-    ctaLabel: "Explore VMS",
-    stat: { value: "1", label: "unified dashboard" },
-  },
+  // {
+  //   id: "vms",
+  //   name: "Vehicle Management System",
+  //   shortName: "VMS",
+  //   eyebrow: "Complete operations",
+  //   description:
+  //     "Run the full lifecycle of your fleet from one place. VMS handles vehicles, drivers, maintenance schedules, and reporting, so operations stay organized as you scale.",
+  //   features: [
+  //     "Vehicle records management",
+  //     "Driver management",
+  //     "Maintenance scheduling",
+  //     "Fleet documentation",
+  //     "Operational workflows",
+  //     "Reports & analytics",
+  //   ],
+  //   url: "https://vms.example.com",
+  //   ctaLabel: "Explore VMS",
+  //   stat: { value: "1", label: "unified dashboard" },
+  // },
 ];
 
 export const getProduct = (id: ProductId): Product => {

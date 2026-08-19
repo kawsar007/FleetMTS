@@ -15,30 +15,11 @@ export function ProductCard({ product }: ProductCardProps) {
 
   // Placeholder images from Unsplash - replace with actual product images
   const productImages = [
-    "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop",
+    "/tracking/tracking0.png",
+    "/tracking/tracking1.jpeg",
+    "/tracking/tracking2.jpeg",
+    "/tracking/tracking3.jpeg",
   ];
-
-  // Demo data - replace with actual product data
-  const stats = {
-    downloads: "170k+",
-    users: "200k+",
-    revenue: "10 Crore+",
-  };
-
-  const keyFeatures = [
-    "Live Classes & Recorded Classes for flexible learning.",
-    "Gamified Rewards System based on student performance.",
-    "Affiliate Program for referrals & Printing Service.",
-    "Interactive Quizzes & Exams.",
-  ];
-
-  const links = {
-    website: "www.acsfutureschool.com",
-    playstore: "https://play.google.com/store",
-  };
 
   return (
     <motion.div

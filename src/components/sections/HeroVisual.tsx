@@ -10,7 +10,7 @@ export function HeroVisual() {
   return (
     <div className="relative mx-auto aspect-[25/12] w-full max-w-[560px] sm:max-w-[640px] lg:max-w-none">
       <OptimizedImage
-        src="/hero/fleet-tracking.jpg"
+        src="/hero/fleet-hero.jpeg"
         alt="FleetMTS live tracking preview showing a truck, van, car, motorbike, auto-rickshaw, and bus tracked on a city map"
         fill
         priority
